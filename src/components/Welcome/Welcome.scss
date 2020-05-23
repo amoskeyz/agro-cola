@@ -12,13 +12,28 @@
       flex-flow: column;
       justify-content: center;
     }
+    // @media screen and (max-width: 471px) {
+    //   // min-width: 200px;
+    // }
     img, &__info {
-      min-width: 500px;
-      width: 40%;
+      width: 500px;
+      // width: 40%;
       @media screen and (max-width: 700px) {
         width: 80%;
       }
     }
+    @media screen and (max-width: 510px) {
+      // min-width: 0;
+      width: auto;
+      line-height: 0;
+      overflow-y: hidden;
+      .caption{
+        text-align: center;
+        font-size: 250%;
+        padding-bottom: 40px;
+      }
+    }
+  // }
 }
     &__info {
         animation: slideUp .7s linear 1s both,slideIn 1.5s ease 2.5s forwards;
@@ -38,7 +53,23 @@
       }
       .person-img{
         animation: opace 1s linear 0.7s backwards,slideInLeft 1.5s ease 2.5s backwards;
-
+        // @media screen and (max-width: 700px) {
+        //   width: 1550%;
+        // }
+        @media screen and (max-width: 471px){
+          min-width: 90%;
+          // display: none;
+          
+        }
+      }
+      @media screen and (max-width: 1000px){
+        .scatter{
+          display: none;
+          img{
+            display: none;
+          }
+        }
+        
       }
 }
 .tryi

@@ -6,9 +6,21 @@
     color: #008737;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 560px) {
+        height:auto
+    }
+ 
     .cover{
         width: 950px;
         margin: 2% auto;
+        @media screen and (max-width: 560px) {
+            text-align: center;
+            display: block;
+            // font-Size: 40px;
+            width: auto;
+
+            
+        }
         .copyright{
             padding-top: 20px;
         }
@@ -20,6 +32,10 @@
         padding: 6px;
         padding-left: 0;
         display: flex;
+        @media screen and (max-width: 560px) {
+            // text-align: center;
+            justify-content: center;
+        }
         .social-link {
             transition: transform 0.5s ease;
             margin-right: 1.5em;
@@ -36,9 +52,18 @@
         display: flex;
         justify-content: space-between;
         font-size: 16px;
+        @media screen and (max-width: 560px) {
+            text-align: center;
+            display: block;
+            width: auto;
+        }
         .header{
             font-size: 20px;
             padding-bottom: 6px;
+            @media screen and (max-width: 560px) {
+                padding-top: 15px;
+                font-weight: bold;
+            }
         }
     }
 }

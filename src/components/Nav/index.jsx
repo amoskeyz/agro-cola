@@ -5,8 +5,8 @@ import Slide from 'react-reveal/Slide';
 import Image from '../../assets/logo.png';
 import Image2 from '../../assets/logo_green.png';
 import './Nav.scss';
-// import Hamburger from '../Hamburger';
-// import Dropdown from '../Dropdown';
+import Hamburger from '../Hamburger';
+import Dropdown from '../Dropdown';
 
 const Nav = ({ scroll }) => {
   const [scrollY, setScrollY] = useState(0);
@@ -25,10 +25,11 @@ const Nav = ({ scroll }) => {
     };
   }, []);
 
-//   const [dropdown, setDropdown] = useState(false);
-//   const handleDropdown = (state) => {
-//     setDropdown(state);
-//   };
+  const [dropdown, setDropdown] = useState(false);
+  const handleDropdown = (state) => {
+    setDropdown(state);
+  };
+
   return (
     <div>
     {scroll ? (scrollY >= 699 &&
@@ -44,10 +45,10 @@ const Nav = ({ scroll }) => {
           <span>Experience It</span>
           <span>Sign In</span>
         </div>
-        {/* <Hamburger close={dropdown} handleDropdown={handleDropdown} /> */}
+        <Hamburger close={dropdown} handleDropdown={handleDropdown} />
       </div>
       <div className="dropdown-wrap">
-        {/* <Dropdown close={dropdown} /> */}
+        <Dropdown close={dropdown} />
       </div>
     </div>
     </Slide>
@@ -55,7 +56,6 @@ const Nav = ({ scroll }) => {
     <div className="navbar-wrap">
       <div className="navbar">
         <button type="button">
-          {/* <span>BULK SMS APP</span> */}
           <img src={Image} alt="icon"/>
         </button>
         <div className="navbar__nav-links">
@@ -64,10 +64,10 @@ const Nav = ({ scroll }) => {
           <span>Experience It</span>
           <span>Sign In</span>
         </div>
-        {/* <Hamburger close={dropdown} handleDropdown={handleDropdown} /> */}
+        <Hamburger close={dropdown} handleDropdown={handleDropdown} />
       </div>
       <div className="dropdown-wrap">
-        {/* <Dropdown close={dropdown} /> */}
+        <Dropdown close={dropdown} />
       </div>
     </div>)
   }

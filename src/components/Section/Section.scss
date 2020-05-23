@@ -3,19 +3,80 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        // min-width: 500px;
         margin: 7% 5% 10% 10%;
+        @media screen and (max-width: 1152px) {
+            flex-flow: column;
+            justify-content: center;
+            // width: 0;
+          }
         .first{
             width: 534px;
             .caption{
-                width: 624px;
+                // width: 624px;
+                // padding: 0;
+                // margin: 0;
                 font-family: 'Red Hat Display', sans-serif;
                 font-size: 50px;
+                @media screen and (max-width: 1152px) {
+                    text-align: center;
+                    // padding-bottom:10px;
+                    // margin: 0;
+                    // width: 90%;
+                    // img{
+                        // text-align: center;
+                        // width: 70%;
+                    // }
+                  }
+                  @media screen and (max-width: 560px) {
+                    // text-align: center;
+                    // img{
+                        text-align: center;
+                        font-size: 35px;
+                        // min-width: 0;
+                        line-height: 45px;
+                    // }
+                  }
             }
             section{
                 line-height: 30px;
                 font-family: 'Roboto', sans-serif;
                 font-size: 16px;
+                @media screen and (max-width: 1152px) {
+                    padding-top: 25px;
+                    // text-align: center;
+                    // img{
+                        // text-align: center;
+                        // width: 70%;
+                    }
+
+                    @media screen and (max-width: 560px) {
+                        // text-align: center;
+                        // img{
+                            text-align: center;
+                            width: auto;
+                            // min-width: 400px;
+                        // }
+                      }
+                //   }
             }
+            @media screen and (max-width: 560px) {
+                // text-align: center;
+                // img{
+                    text-align: center;
+                    width: auto;
+                    // min-width: 400px;
+                // }
+              }
+        }
+        .second{
+            @media screen and (max-width: 1152px) {
+                text-align: center;
+                img{
+                    text-align: center;
+                    width: 80%;
+                }
+              }
         }
         .head2{
             padding: 0;
@@ -35,6 +96,7 @@
 
 
 .ellipse4{
+    z-index: -3323;
     position: absolute;
 right: 0;
 top: 2378px;

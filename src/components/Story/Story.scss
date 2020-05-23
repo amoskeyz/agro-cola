@@ -17,30 +17,81 @@
     bottom
     no-repeat; 
   background-size:100% 1px ;
+  @media screen and (max-width: 560px) {
+    font-Size: 40px;
+    width: auto;
+    
+}
     }
     .image-rotate{
         margin: auto;
-        width: 667px;
+        width: 50%;
         padding: 15px 0 50px 0;
         box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.3);
-border-radius: 5px;
-        // background: url('../../assets/screen.jpg') no-repeat;
-transform: rotate(-3deg);
+        border-radius: 5px;
+        transform: rotate(-3deg);
+        text-align: center;
+        // font-Size: 70px;
+        img{
+            text-align: center;
+            width:100%;
+            @media screen and (max-width: 560px) {
+                // font-Size: 40px;
+                // width: 50%;
+                
+            }
+        }
+        @media screen and (max-width: 560px) {
+            // font-Size: 40px;
+        
+            width: 70%;
+        }
     }
 }
     .suub{
         z-index: 333434343;
         margin-top: 120px;
-        // margin-left: 140px ;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        @media screen and (max-width: 933px) {
+            flex-direction: column;
+            flex-flow: column;
+            text-align: center;
+            .immgg{
+                margin-top: 40px;
+                width: 80%;
+            }
+            .caption{
+                width: auto;
+                text-align: center;
+                font-size: 180%;
+                line-height: 45px;
+            }
+            button{
+                width: 60%;
+
+            }
+        }
         .text{
             position: absolute;
             left: 320px;
-            // margin-left: 150px;
             width: 580px;
             text-align:left;
+            @media screen and (max-width: 1125px) {
+                // font-Size: 40px;
+                // width: auto;
+                position: relative;
+                left: 6%;
+                
+            }
+            @media screen and (max-width: 933px) {
+                // font-Size: 40px;
+                width: auto;
+                left: 0;
+                // position: absolute;
+                
+            }
             button{
                 cursor: pointer;
                 outline: none;
@@ -53,21 +104,25 @@ transform: rotate(-3deg);
                 border-radius: 4px;
                 margin: 50px 0 0 240px;
                 font-size: 20px;
+                @media screen and (max-width: 993px) {
+                    // font-Size: 40px;
+                    margin-left: 31%;
+                    width: 35%;
+
+                    
+                }
             }
         }
     }
 .try{
+    z-index: -17878;
     position: absolute;
-width: 300px;
-height: 600px;
-left: 0px;
-top: 5389px;
+    left: 0px;
+    top: 5389px;
 }
 .ellipse7{
     z-index: -17878;
     position: absolute;
-width: 242.02px;
-height: 600px;
-right: 0;
-top: 4968px;
+    right: 0;
+    top: 4968px;
 }

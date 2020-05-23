@@ -1,5 +1,26 @@
 .Looks{
     margin:70px;
+    .caption{
+        z-index: 30;
+        @media screen and (max-width: 560px) {
+            // text-align: center;
+            // img{
+                z-index: 50;
+                text-align: center;
+                // width: 560px;
+                // min-width: 400px;
+            // }
+          }
+    }
+    @media screen and (max-width: 560px) {
+        // text-align: center;
+        // img{
+            margin: 0;
+            // text-align: center;
+            // width: auto;
+            // min-width: 400px;
+        // }
+      }
     
     .card-container{
         display: flex;
