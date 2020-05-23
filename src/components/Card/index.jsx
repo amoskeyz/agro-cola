@@ -5,7 +5,7 @@ import './Card.scss';
 const Card = ({ image, title, details, color}) => {
   return (
     <div className="Card" style={{backgroundColor: color}}>
-        <img src={image} />
+        <img src={image} alt=""/>
         <div className="details">
         <h3>
         {title}

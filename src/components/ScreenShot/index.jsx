@@ -5,7 +5,7 @@ import Image from '../../assets/Screenshot.jpg'
 const ScreenShot = () => {
   return (
     <div className="Screen">
-        <img src={Image} />
+        <img src={Image} alt=""/>
     </div>
   );
 }

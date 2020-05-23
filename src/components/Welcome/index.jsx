@@ -17,10 +17,10 @@ const Welcome = () => {
           </div>
         </div>
         </div>
-        <img src={Image} />
+        <img src={Image} alt=""/>
       </div>
       <div className="scatter">
-      <img src={Image2} />
+      <img src={Image2} alt=""/>
       </div>
     </div>
   );

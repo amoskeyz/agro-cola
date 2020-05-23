@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="Footer">
       <div className="cover">
     <div>
-        <img src={Image} />
+        <img src={Image} alt=""/>
     </div>
     <div className="flex">
       <section className="copyright">
@@ -29,13 +29,13 @@ const Footer = () => {
         <div className="header">Follow us</div>
         <div className="image">
         <a className="social-link" href="/">
-        <img src={Image2} />
+        <img src={Image2} alt="" />
         </a>
         <a className="social-link" href='/'>
-        <img src={Image3} />
+        <img src={Image3} alt="" />
         </a>
         <a className="social-link" href="/">
-        <img src={Image4} />
+        <img src={Image4} alt="" />
         </a>
         </div>
       </section>
