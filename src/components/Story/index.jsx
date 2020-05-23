@@ -17,7 +17,7 @@ const Story = () => {
       <div className="image-rotate">
         <img src={Image} alt=""/>
       </div>
-      <Fade duration={4000}>
+      <Fade duration={3000}>
         <div className="suub">
           <div className="text">
             <div className="caption">Let's reshape the future of agriculture, one crop at a time.</div>
