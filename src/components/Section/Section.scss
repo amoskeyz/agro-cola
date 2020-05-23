@@ -1,11 +1,9 @@
 .Section{
-    // margin-bottom: 3px;
     .sub-sec{
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 7% 5% 10% 10%;
-        // width: 80%
         .first{
             width: 534px;
             .caption{
@@ -19,13 +17,9 @@
                 font-size: 16px;
             }
         }
-        .second{
-            // margin-left: 50px;
-        }
         .head2{
             padding: 0;
             margin: 0;
-            // color: red;
         }
         .head1{
             margin-top: 0;
@@ -42,8 +36,6 @@
 
 .ellipse4{
     position: absolute;
-width: 432.5px;
-height: 465px;
 right: 0;
 top: 2378px;
 }
@@ -51,16 +43,12 @@ top: 2378px;
 .ellipse5{
     z-index: -3;
     position: absolute;
-// width: 300px;
-// height: 600px;
 left: 0px;
 top: 1722px;
 }
 .ellipse6{
     z-index: -3;
     position: absolute;
-// width: 300px;
-// height: 600px;
 right: 0;
 top: 1146px;
 }

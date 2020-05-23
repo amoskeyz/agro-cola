@@ -1,8 +1,9 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 const SubSec = ({ head, text, image, head2, read }) => {
   return (
-    // <div className="Section">
+    <Fade duration={3000}>
         <div className="sub-sec">
             <div className="first">
                 <div className={head2 ? 'head2 caption' : 'caption'}>{head}</div>
@@ -14,8 +15,7 @@ const SubSec = ({ head, text, image, head2, read }) => {
                 <img src={image} alt="second" />
             </div>
         </div>
-      
-    // </div>
+    </Fade>
   );
 }
 
