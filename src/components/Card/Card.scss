@@ -1,0 +1,23 @@
+.Card{
+    margin: 20px;
+    width: 264px;
+    height: 411px;
+    border-radius: 5px;
+    // background-color: #F5F6F4;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    // font-family: Segoe MDL2 Assets;
+    .details{
+        // padding: 5px;
+        h3{
+            margin-left: 7px;
+        }
+        margin: 7px;
+        text-align: left;
+    }
+    .read{
+        margin-right: 10px;
+        text-align: right;
+        color: #F8C301
+    }
+}
