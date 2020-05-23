@@ -23,7 +23,7 @@ const Story = () => {
             <div className="caption">Let's reshape the future of agriculture, one crop at a time.</div>
             <button>Join Us</button>
           </div>
-          <img src={Image2} alt=""/>
+          <img className="immgg" src={Image2} alt=""/>
         </div>
       </Fade>
     </div>
