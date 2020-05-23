@@ -1,11 +1,11 @@
 import React from 'react';
 import './Screen.scss';
-import Image from '../../assets/Screenshot.jpg'
+import Image from '../../assets/screens.jpg'
 
 const ScreenShot = () => {
   return (
     <div className="Screen">
-        <img src={Image} alt=""/>
+        <img className="immg" src={Image} alt=""/>
     </div>
   );
 }

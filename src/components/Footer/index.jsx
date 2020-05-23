@@ -9,38 +9,38 @@ const Footer = () => {
   return (
     <div className="Footer">
       <div className="cover">
-    <div>
-        <img src={Image} alt=""/>
-    </div>
-    <div className="flex">
-      <section className="copyright">
-        <div className="links">Copy right 2019 AgroMall Discovery and Extension Limited</div>
-        <div className="links">All right reserved</div>
-      </section>
-      <section>
-        <div className="header">Link</div>
-        <div className="links">User</div>
-        <div className="links">State</div>
-        <div className="links">Media</div>
-        <div className="links">Experience It</div>
-        <div className="links">Join us</div>
-      </section>
-      <section>
-        <div className="header">Follow us</div>
-        <div className="image">
-        <a className="social-link" href="/">
-        <img src={Image2} alt="" />
-        </a>
-        <a className="social-link" href='/'>
-        <img src={Image3} alt="" />
-        </a>
-        <a className="social-link" href="/">
-        <img src={Image4} alt="" />
-        </a>
+        <div>
+          <img src={Image} alt=""/>
         </div>
-      </section>
-    </div>
-    </div>
+          <div className="flex">
+            <section className="copyright">
+              <div className="links">Copy right 2019 AgroMall Discovery and Extension Limited</div>
+              <div className="links">All right reserved</div>
+            </section>
+            <section>
+              <div className="header">Link</div>
+              <div className="links">User</div>
+              <div className="links">State</div>
+              <div className="links">Media</div>
+              <div className="links">Experience It</div>
+              <div className="links">Join us</div>
+            </section>
+            <section>
+              <div className="header">Follow us</div>
+              <div className="image">
+                <a className="social-link" href="/">
+                <img src={Image2} alt="" />
+                </a>
+                <a className="social-link" href='/'>
+                  <img src={Image3} alt="" />
+                </a>
+                <a className="social-link" href="/">
+                  <img src={Image4} alt="" />
+                </a>
+              </div>
+            </section>
+         </div>
+       </div>
     </div>
   );
 }

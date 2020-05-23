@@ -18,6 +18,15 @@
     no-repeat; 
   background-size:100% 1px ;
     }
+    .image-rotate{
+        margin: auto;
+        width: 667px;
+        padding: 15px 0 50px 0;
+        box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+        // background: url('../../assets/screen.jpg') no-repeat;
+transform: rotate(-3deg);
+    }
 }
     .suub{
         z-index: 333434343;

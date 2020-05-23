@@ -3,21 +3,29 @@
     width: 264px;
     height: 411px;
     border-radius: 5px;
-    // background-color: #F5F6F4;
+    padding-top: 10px;
     text-align: center;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
-    // font-family: Segoe MDL2 Assets;
+    font-family: Segoe UI;
     .details{
-        // padding: 5px;
-        h3{
-            margin-left: 7px;
+        padding-bottom: 5px;
+        .title{
+            padding-bottom: 15px;
+            margin-left: 5px;
+            margin-top: 30px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 20px
         }
-        margin: 7px;
+        font-size: 14px;
+        margin: 0 5px;
         text-align: left;
     }
     .read{
         margin-right: 10px;
         text-align: right;
-        color: #F8C301
+        color: #F8C301;
+        cursor: pointer;
     }
 }

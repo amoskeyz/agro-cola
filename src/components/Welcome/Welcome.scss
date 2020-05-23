@@ -3,11 +3,8 @@
     background-image: url(../../assets/4.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    // overflow-x: hidden;
 .welcome{
     margin: 6em 0 3em 0;
-    // margin-left: 6%;;
-    // padding: 0 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +14,6 @@
     }
     img, &__info {
       min-width: 500px;
-      // margin: 1em;
       width: 40%;
       @media screen and (max-width: 700px) {
         width: 80%;
@@ -25,26 +21,13 @@
     }
 }
     &__info {
-        // margin-right:5px;
-
+        animation: slideUp .7s linear 1s both,slideIn 1.5s ease 2.5s forwards;
         .text {
             font-family: 'Red Hat Display';
-            // margin-right:20px;
             font-size: 45px;
             font-weight: 500;
         }
-        // display: inline-flex;
-    // justify-content: space-between;
         color: white;
-        // display: flex;
-        // justify-content: center;
-          // position: absolute;
-          // transition: linear 59s ease;
-        // max-width: 550px;
-        // text-align: center;
-        // align-items: center;
-        // animation: example 1s ease-in-out;
-      //   transition: linear 59s ease/;
       .cent{
         display: flex;
         justify-content: center;
@@ -53,24 +36,64 @@
         padding-top: 10px;
       }
       }
+      .person-img{
+        animation: opace 1s linear 0.7s backwards,slideInLeft 1.5s ease 2.5s backwards;
+
+      }
 }
 .tryi
 {
   font-family: 'Roboto', sans-serif;
-//   font-weight: bold;
-//   font-size:18px;
-// //   color: #3F3D56;
   text-align: center;
-//   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-/* or 150% */
-
-// display: flex;
-// align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .scatter{
   overflow-x: hidden;
 }
+
+
+
+@keyframes slideUp{
+  0% {
+    opacity: 0;
+    transform: scale(.9) translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(-10%);
+  }
+  }
+  
+  @keyframes slideIn{
+    0% {
+      transform: scale(1) translate(-10%);
+  }
+  100% {
+      transform: scale(1) translate(0);
+  }
+  }
+  
+  
+  @keyframes opace{
+  0% {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateX(20%);
+  }
+  }
+  
+  @keyframes slideInLeft{
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  }
