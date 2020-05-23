@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/agro-cola/static/css/main.aaf74504.chunk.css",
+    "main.js": "/agro-cola/static/js/main.f41d7d59.chunk.js",
+    "main.js.map": "/agro-cola/static/js/main.f41d7d59.chunk.js.map",
+    "runtime-main.js": "/agro-cola/static/js/runtime-main.ef4a2eb0.js",
+    "runtime-main.js.map": "/agro-cola/static/js/runtime-main.ef4a2eb0.js.map",
+    "static/js/2.d8af25e1.chunk.js": "/agro-cola/static/js/2.d8af25e1.chunk.js",
+    "static/js/2.d8af25e1.chunk.js.map": "/agro-cola/static/js/2.d8af25e1.chunk.js.map",
+    "index.html": "/agro-cola/index.html",
+    "precache-manifest.5709593f532d80debe6fab54b172bcea.js": "/agro-cola/precache-manifest.5709593f532d80debe6fab54b172bcea.js",
+    "service-worker.js": "/agro-cola/service-worker.js",
+    "static/css/main.aaf74504.chunk.css.map": "/agro-cola/static/css/main.aaf74504.chunk.css.map",
+    "static/js/2.d8af25e1.chunk.js.LICENSE.txt": "/agro-cola/static/js/2.d8af25e1.chunk.js.LICENSE.txt",
+    "static/media/Welcome.scss": "/agro-cola/static/media/4.1dcfe51c.svg",
+    "static/media/R1.png": "/agro-cola/static/media/R1.5063ebce.png",
+    "static/media/R2.png": "/agro-cola/static/media/R2.6014b74b.png",
+    "static/media/R3.png": "/agro-cola/static/media/R3.39e12e73.png",
+    "static/media/R4.png": "/agro-cola/static/media/R4.97b75e84.png",
+    "static/media/R5.png": "/agro-cola/static/media/R5.0d88f433.png",
+    "static/media/R6.png": "/agro-cola/static/media/R6.d8eabc28.png",
+    "static/media/R7.png": "/agro-cola/static/media/R7.4574ac36.png",
+    "static/media/Rec.svg": "/agro-cola/static/media/Rec.39d46a05.svg",
+    "static/media/Rect2.svg": "/agro-cola/static/media/Rect2.3d25cb93.svg",
+    "static/media/Rect3.svg": "/agro-cola/static/media/Rect3.daf07ce3.svg",
+    "static/media/Rect4.svg": "/agro-cola/static/media/Rect4.4348d10b.svg",
+    "static/media/Screenshot.jpg": "/agro-cola/static/media/Screenshot.9db5d5f2.jpg",
+    "static/media/person1.png": "/agro-cola/static/media/person1.ac2066bd.png",
+    "static/media/picture-frame.jpg": "/agro-cola/static/media/picture-frame.497e78e4.jpg",
+    "static/media/secaj.png": "/agro-cola/static/media/secaj.ed4183dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef4a2eb0.js",
+    "static/js/2.d8af25e1.chunk.js",
+    "static/css/main.aaf74504.chunk.css",
+    "static/js/main.f41d7d59.chunk.js"
+  ]
+}
