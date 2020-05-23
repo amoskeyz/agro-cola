@@ -1,13 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 body {
+  position: relative;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a{
+  text-decoration: none;
+}
+ /* body{ */
+  ::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 15px;
+    position: relative;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+background: transparent;
+border-radius: 10px;
+position: absolute;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(194, 192, 192);
+border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(192, 189, 189);
+}
+ /* } */
+
+.caption{
+  /* font-family: 'Red Hat Display', san-serif;
+  font-size:50px; */
+  font-family: 'Red Hat Display', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 66px;
 }
